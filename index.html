@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja" class="mti-inactive"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JunjiOgata</title>
+<meta name="Keywords" content="Junji,ジュンジ,緒方淳二,ogata,オガタ,JunjiOgata,ジュンジオガタ,OgataJunji,オガタジュンジ">
+<meta name="Description" content="JunjiOgata Official website | Collection / Office &amp; Press Contact">
+<meta name="robots" content="index,follow">
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="JunjiOgata">
+<meta property="og:site_name" content="JunjiOgata">
+<meta property="og:description" content="JunjiOgata Official website | Collection / Office &amp; Press Contact">
+<script language="Javascript" src="./index_files/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="./index_files/jquery.easing.1.3.js"></script> 
+<script language="Javascript" src="./index_files/fade.js"></script>
+<script language="Javascript" src="./index_files/jquery.js"></script>
+<script src="./index_files/jquery.min.js"></script>
+<script src="./index_files/iscroll.min.js"></script>
+<link type="text/css" rel="stylesheet" href="./index_files/f7499246-bb59-4f96-ac34-0ffb56906023.css">
+<link href="./index_files/style.css" rel="stylesheet" type="text/css">
+<link href="./index_files/flexslider.css" rel="stylesheet" type="text/css">
+<link href="./index_files/drawer.css" type="text/css" rel="stylesheet" media="all">
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+<script>
+$(function () {
+  // 親メニュー処理
+  $('span').click(function() {
+    // メニュー表示/非表示
+    $(this).next('ul').slideToggle('fast');
+  });
+});</script>
+<script type="text/javascript" src="./index_files/drawer.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+
+<script type="text/javascript">
+$('#secondcontent').hide();
+$(function(){
+/* 1.ロゴからコンテンツへの切替*/
+var firstImg = $('#firstimg');
+var secondCon = $('#secondcontent');
+firstImg.hide().fadeIn(100, function(){
+  setTimeout(function() {
+    firstImg.fadeOut(100);
+  }, 200);
+});
+setTimeout(function(){
+  secondCon.fadeIn(100);
+}, 100);
+});
+</script>
+<script language="Javascript" src="./index_files/jquery.flexslider.js"></script>
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+$(function() {
+	setSize();
+	//リサイズしたら実行
+	$(window).resize(function(){
+	   setSize();
+	});
+});
+
+function setSize() {
+	//画像サイズ指定
+	var imgW = 1800;
+	var imgH = 1017;
+	//ウィンドウサイズ取得
+	var winW = $(window).width();
+	var winH = $(window).height();
+	var scaleW = winW / imgW;
+	var scaleH = winH / imgH;
+	var fixScale = Math.max(scaleW, scaleH);
+	var setW = imgW * fixScale;
+	var setH = imgH * fixScale;
+	var moveX = Math.floor((winW - setW) / 2);
+	var moveY = Math.floor((winH - setH) / 2);
+
+	$('#bg,#photoimg').css({
+		'width': setW,
+		'height': setH,
+		'left' : moveX,
+		'top' : moveY
+	});
+}// -->
+</script>
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+$('.flexslider').flexslider({
+controlNav: true,
+directionNav: true,
+randomize: false,
+touch: true,
+slideshowSpeed: 4000,
+animationSpeed: 1000,
+pauseOnAction: false,
+animationLoop: true
+});
+});
+</script>
+<script src="./index_files/jquery.fademover.js"></script>
+<script>
+$(function(){
+	$('body').fadeMover();
+});
+</script>
+<script>
+$(function(){
+	$('body').fadeMover({
+		'effectType': 1,
+		'inSpeed': 800,
+		'outSpeed': 800,
+		'inDelay' : '0',
+		'outDelay' : '0',
+		'nofadeOut' : 'nonmover'
+	});
+});
+</script>
+
+<body class="drawer drawer--left drawer-close" style="opacity: 1; overflow: auto;">
+
+<div id="firstimg" style="display: none;">
+<div class="fade_logo"><img class="top_logo_size" src="./index_files/_toplogo.png" border="0"></div>
+</div>
+
+<div id="secondcontent" style="display: block;">
+
+  <header role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>    </button>
+
+    <nav class="drawer-nav" role="navigation">
+      <ul class="drawer-menu" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+        <li class="drawer-menu-item"><span>COLLECTION</span>
+    	<ul>
+    	<li><a href="http://www.JunjiOgata.com/">2017 AUTUMN &amp; WINTER</a></li>
+    	</ul>
+        </li>
+        <li class="drawer-menu-item"><a href="http://www.JunjiOgata.jp/stockists/">CONCEPT</a></li>
+        <li class="drawer-menu-item"><a href="http://www.JunjiOgata.jp/contact/">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<div class="footer">Copyright © JunjiOgta, All Rights Reserved.</div>
+
+<div id="photodiv">
+
+<div class="flexslider" id="photoimg" style="width: 1276px; height: 720.94px; left: 0px; top: -43px;">
+<ul class="slides">
+
+
+<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"><img src="./aw.files/c5.jpg" draggable="false"></li>
+
+
+
+
+<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class=""><img src="./index_files/16AW311.jpg" draggable="false"></li>
+<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class=""><img src="./index_files/16AW485.jpg" draggable="false"></li>
+<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class=""><img src="./index_files/16AW602.jpg" draggable="false"></li>
+<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class=""><img src="./index_files/16AW738.jpg" draggable="false"></li>
+
+</ul>
+<ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="flex-active">3</a></li><li><a>4</a></li><li><a>5</a></li><li><a>6</a></li><li><a>7</a></li><li><a>8</a></li><li><a>9</a></li><li><a>10</a></li><li><a>11</a></li><li><a>12</a></li><li><a>13</a></li><li><a>14</a></li><li><a>15</a></li><li><a>16</a></li></ol><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="http://www.JunjiOgata.jp/#">Previous</a></li><li class="flex-nav-next"><a class="flex-next" href="http://www.JunjiOgata.jp/#">Next</a></li></ul></div>
+
+</div>
+
+
+</div>
+
+<div class="drawer-overlay drawer-toggle"></div></body></html>

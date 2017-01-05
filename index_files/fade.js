@@ -1,0 +1,9 @@
+$(document).ready(function(){
+$("img.jquery-hover").fadeTo(0,1.0);
+$("img.jquery-hover").hover(function(){
+         $(this).fadeTo(300,0.6);
+     },
+     function(){
+         $(this).fadeTo(300,1.0);
+     });
+});
